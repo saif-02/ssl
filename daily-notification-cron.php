@@ -12,8 +12,8 @@ $fetch_site_details = mysqli_query($connect, "SELECT * FROM `site_details` WHERE
 
 		// $fetch_admins = mysqli_query($connect, "SELECT * FROM `all_users` WHERE `roleid` = 1 and `user_id` = '2' and email= 'anweshan.p@iverbinden.com' ");
 
-			$fetch_admins = mysqli_query($connect, "SELECT * FROM `all_users` WHERE `roleid` = 1 and `user_id` = '31' and email= 'anweshan.p@iverbinden.com' ");
-
+			//$fetch_admins = mysqli_query($connect, "SELECT * FROM `all_users` WHERE `roleid` = 1 and `user_id` = '31' and email= 'anweshan.p@iverbinden.com' ");
+                        $fetch_admins = mysqli_query($connect, "SELECT * FROM `all_users` WHERE `roleid` = 1 ");
 			// var_dump(mysqli_num_rows($fetch_admins)); exit();
 		if(mysqli_num_rows($fetch_admins) > 0){
 
