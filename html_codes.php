@@ -3875,81 +3875,81 @@ function landing_header(){
 
 $current_url = $_SERVER[REQUEST_URI];
 
-	echo '<section class="menu cid-rH30gZ0uKY" once="menu" id="menu02-m">
-    
+echo '<section class="menu cid-rH30gZ0uKY" once="menu" id="menu02-m">
+   
 
 
-    <nav class="navbar navbar-dropdown navbar-expand-lg">
-        <div class="navbar-brand">
-            <span class="navbar-logo">
-                <a href="../">
-                    <img src="../assets/mainpage/assets/images/speaker-engage-248x92.png" alt="Speaker Engage" title="" style="height: 55px;">
-                </a>
-            </span>
-            
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                 <li class="nav-item';
-                                if (strpos($current_url,'') !== false){
-                                    echo ' ';
-                                }
-                                else{
-                                    echo 'active';
-                                }   
-                                echo' ">
-                    <a class="nav-link link text-info display-4" href="../">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item ';
-                                if (strpos($current_url,'/demo') !== false){
-                                    echo ' active';
-                                }
-                                echo'">
-                    <a class="nav-link link text-info display-4" href="../demo">
-                        Demo
-                    </a>
-                </li>
-                <li class="nav-item ';
-                                if (strpos($current_url,'/pricing') !== false){
-                                    echo ' active';
-                                }  
-                                echo'">
-                    <a class="nav-link link text-info display-4" href="../pricing">
-                        Pricing
-                    </a>
-                </li>
-                <li class="nav-item ';
-                                if (strpos($current_url,'/event-services') !== false){
-                                    echo '  active';
-                                }  
-                                echo'">
-                    <a class="nav-link link text-info display-4" href="../event-services">
-                        Event Services
-                    </a>
-                </li>
-               <!-- <li class="nav-item';
-                                if (strpos($current_url,'/event-directory') !== false){
-                                    echo '  active';
-                                }  
-                                echo'">
-                    <a class="nav-link link text-info display-4" href="../event-directory">
-                         Event Directory
-                    </a>
-                </li>-->
-            </ul><div class="navbar-buttons px-2 mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="../login.php">
-                    Login</a></div>
-        </div>
-    </nav>
+   <nav class="navbar navbar-dropdown navbar-expand-lg">
+       <div class="navbar-brand">
+           <span class="navbar-logo">
+               <a href="../">
+                   <img src="../assets/mainpage/assets/images/speaker-engage-248x92.png" alt="Speaker Engage" title="" style="height: 55px;">
+               </a>
+           </span>
+           
+       </div>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <div class="hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                <li class="nav-item';
+                               if (strpos($current_url,'') !== false){
+                                   echo ' active';
+                               }
+                               else{
+                                   echo '  ';
+                               }  
+                               echo' ">
+                   <a class="nav-link link text-info display-4" href="../">
+                       Home
+                   </a>
+               </li>
+               <li class="nav-item ';
+                               if (strpos($current_url,'/demo') !== false){
+                                   echo ' active';
+                               }
+                               echo'">
+                   <a class="nav-link link text-info display-4" href="../demo">
+                       Demo
+                   </a>
+               </li>
+               <li class="nav-item ';
+                               if (strpos($current_url,'/pricing') !== false){
+                                   echo ' active';
+                               }  
+                               echo'">
+                   <a class="nav-link link text-info display-4" href="../pricing">
+                       Pricing
+                   </a>
+               </li>
+               <li class="nav-item ';
+                               if (strpos($current_url,'/event-services') !== false){
+                                   echo '  active';
+                               }  
+                               echo'">
+                   <a class="nav-link link text-info display-4" href="../event-services">
+                       Event Services
+                   </a>
+               </li>
+              <!-- <li class="nav-item';
+                               if (strpos($current_url,'/event-directory') !== false){
+                                   echo '  active';
+                               }  
+                               echo'">
+                   <a class="nav-link link text-info display-4" href="../event-directory">
+                        Event Directory
+                   </a>
+               </li>-->
+           </ul><div class="navbar-buttons px-2 mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="../login.php">
+                   Login</a></div>
+       </div>
+   </nav>
 </section>';
 }
 
